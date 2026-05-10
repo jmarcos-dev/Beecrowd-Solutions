@@ -12,7 +12,8 @@ public class Maior {
         int entrada2 = input.nextInt();
         int entrada3 = input.nextInt();
 
-        int maiorABC = ((entrada1 + entrada2 + entrada3) + Math.abs(entrada1 - entrada2 - entrada3)) / 3;
+        int maiorAB = (entrada1 + entrada2 + Math.abs(entrada1 - entrada2)) / 2;
+        int maiorABC = (maiorAB + entrada3 + Math.abs(maiorAB - entrada3)) / 2;
 
         System.out.println(maiorABC + " eh o maior");
 
