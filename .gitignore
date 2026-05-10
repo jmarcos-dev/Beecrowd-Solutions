@@ -1,3 +1,4 @@
 *.iml
-src/
-*.idea
+*.idea/ .idea/.idea
+src.iml
+/out/
