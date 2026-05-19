@@ -2,7 +2,7 @@ package Java;
 
 import java.util.Scanner;
 
-public class BucaNaInternet {
+public class BuscaNaInternet {
     public static void main() {
         Scanner input = new Scanner(System.in);
         int pessoas = input.nextInt();
