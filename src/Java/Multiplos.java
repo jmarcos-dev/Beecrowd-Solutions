@@ -24,5 +24,7 @@ public class Multiplos {
         {
             System.out.println("Nao sao Multiplos");
         }
+
+        input.close();
     }
 }
