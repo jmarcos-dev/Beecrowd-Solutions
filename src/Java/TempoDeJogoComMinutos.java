@@ -12,7 +12,7 @@ public class TempoDeJogoComMinutos {
         if (hi == hf && mi == mf && hi==mi)  {
             System.out.println("O JOGO DUROU 24 HORA(S) E 0 MINUTO(S)");            
         }
-        else if(hi )
+        //else if(hi )
 
     }
 }
