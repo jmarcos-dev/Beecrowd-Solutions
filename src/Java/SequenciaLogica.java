@@ -1,15 +1,22 @@
-package Java;
-
 import java.util.Scanner;
 
 public class SequenciaLogica {
     public static void main(String[] args) {
+
         Scanner input = new Scanner(System.in);
-        int entrada = input.nextInt();
-        for (int i = 1; i <= entrada; i++) {
-            for (int j = i; j < entrada; j++) {
-                System.out.println(i + " " + j + " " + j*2);
-            }
+
+        int N = input.nextInt();
+
+        for (int i = 1; i <= N; i++) {
+
+            int quadrado = i * i;
+            int cubo = i * i * i;
+
+            System.out.println(i + " " + quadrado + " " + cubo);
+
+            System.out.println(i + " " + (quadrado + 1) + " " + (cubo + 1));
         }
+
+        input.close();
     }
 }
