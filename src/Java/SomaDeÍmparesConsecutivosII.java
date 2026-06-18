@@ -25,5 +25,6 @@ public class SomaDeÍmparesConsecutivosII {
             System.out.println(impar);
             impar=0;
         }
+        input.close();
     }
 }
