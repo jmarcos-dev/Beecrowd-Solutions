@@ -11,10 +11,9 @@ public class TempoDeJogoComMinutos {
         int conversaoFinal = (hf*60)+mf;
         int duracao = 0;
         if (conversaoFinal > conversaoInicial) {
-            duracao = f
+            duracao = 0;
         }
-        
-        if()
+
         input.close();
     }
 }

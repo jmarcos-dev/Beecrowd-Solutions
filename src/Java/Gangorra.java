@@ -17,6 +17,6 @@ public class Gangorra {
             System.out.println("1");
         }
 
-        input.close;
+        input.close();
     }
 }
