@@ -22,5 +22,7 @@ public class UltrapassandoZ {
         }
 
         System.out.println(cont);
+
+        input.close();
     }
 }
