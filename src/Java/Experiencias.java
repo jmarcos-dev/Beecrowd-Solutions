@@ -28,18 +28,15 @@ public class Experiencias {
 
 
         System.out.println("Total: " + quantiaTotal + " cobaias");
-
         System.out.println("Total de coelhos: " + quantiaCoelho);
-
         System.out.println("Total de ratos: " + quantiaRato);
-
         System.out.println("Total de sapos: " + quantiaSapo);
 
         System.out.printf("Percentual de coelhos: %.2f %%%n", percecCoelho);
-
         System.out.printf("Percentual de ratos: %.2f %%%n", percecRato);
+        System.out.printf("Percentual de sapos: %.2f %%%n", percecSapo);
 
-        System.out.printf("Percentual de sapos: %.2f %%%n ", percecSapo);
+        sc.close();
     }
 
 }
