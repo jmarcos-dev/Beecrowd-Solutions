@@ -21,7 +21,7 @@ cpp/ → Solutions implemented in C++
 
 java/ → Solutions implemented in Java
 
-Each file is named according to the problem ID from Beecrowd.
+Each file is named according to the problem ID/name from Beecrowd.
 
 ## Objectives
  Improve logical reasoning
