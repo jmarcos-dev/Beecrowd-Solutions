@@ -13,8 +13,8 @@ Beecrowd-Solutions/
 │   └── ...
 │
 ├── java/
-│   ├── 1000.java
-│   ├── 1001.java
+│   ├── ProblemName1.java
+│   ├── ProblemName2.java
 │   └── ...
 ```
 cpp/ → Solutions implemented in C++
