@@ -27,5 +27,6 @@ public class TempoDeJogoComMinutos {
             System.out.println("O JOGO DUROU " + convert + " HORA(S) E " + convertMin + " MINUTO(S)");
 
         }
+        sc.close();
     }
 }
