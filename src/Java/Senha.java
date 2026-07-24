@@ -1,19 +1,17 @@
+package Java;
 
-import java.io.DataInputStream;
-import java.io.IOException;
+import java.util.Scanner;
 
 public class Senha {
 
-    public static void main(String[] args) throws IOException {
-        DataInputStream dis = new DataInputStream(System.in);
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
 
-        while (true) {
-            int valores = dis.readInt();
-            if (valores == 0) {
-                break;
-            }
-            System.out.println(valores - 1);
-
+        while (sc.hasNextInt()) {
+            int valor = sc.nextInt();
+            System.out.println(valor - 1);
         }
+
+        sc.close();
     }
 }
