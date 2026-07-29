@@ -1,6 +1,5 @@
 import java.util.Scanner;
 
-
 public class MaiorePosicao {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -8,10 +7,9 @@ public class MaiorePosicao {
         for (i = 0; i < 100; i++) {
             int valor = sc.nextInt();
 
-
             if (valor > aux) {
                 aux = valor;
-                posicao = i+1;
+                posicao = i + 1;
             }
         }
         System.out.println(aux);
