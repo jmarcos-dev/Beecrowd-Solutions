@@ -6,10 +6,12 @@ public class IamToorg {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int cases = sc.nextInt();
+        String questions = new String();
         for (int i = 0; i < cases; i++) {
-            String question = sc.next();
+            sc.next();
+            questions = sc.nextLine();
+            System.out.println("I am Toorg!");
         }
-
         sc.close();
     }
 }
