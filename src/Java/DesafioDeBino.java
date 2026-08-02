@@ -30,6 +30,7 @@ public class DesafioDeBino {
         System.out.println(multi3 + " Multiplo(s) de 3");
         System.out.println(multi4 + " Multiplo(s) de 4");
         System.out.println(multi5 + " Multiplo(s) de 5");
+        
         sc.close();
     }
 
